@@ -16,6 +16,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -24,7 +25,7 @@ import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest
 public class BookControllerTest {
 
 
