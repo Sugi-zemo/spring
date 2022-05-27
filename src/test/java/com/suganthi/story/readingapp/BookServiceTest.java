@@ -36,7 +36,7 @@ public class BookServiceTest {
     @Mock
     private Model model;
 
-    @Test
+  /*  @Test
     public void findAll() {
         when(bookRepository.findAll()).thenReturn(
                 Stream.of(
@@ -63,5 +63,5 @@ public class BookServiceTest {
                         new Book("The Kingdom","Horror")).collect(Collectors.toList()));
         assertEquals(2,bookService.searchBy(keyword).size());
     }
-
+*/
 }
