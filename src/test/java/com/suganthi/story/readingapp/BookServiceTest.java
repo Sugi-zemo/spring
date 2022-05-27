@@ -12,7 +12,8 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
 import org.springframework.ui.Model;
 
 import java.util.stream.Collectors;
@@ -22,8 +23,7 @@ import org.junit.Test;
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
-/*@RunWith(SpringRunner.class)
-@SpringBootTest
+@RunWith(SpringJUnit4ClassRunner.class)
 public class BookServiceTest {
 
 
@@ -36,7 +36,7 @@ public class BookServiceTest {
     @Mock
     private Model model;
 
-   @Test
+    @Test
     public void findAll() {
         when(bookRepository.findAll()).thenReturn(
                 Stream.of(
@@ -63,5 +63,5 @@ public class BookServiceTest {
                         new Book("The Kingdom","Horror")).collect(Collectors.toList()));
         assertEquals(2,bookService.searchBy(keyword).size());
     }
-*/
+
 }
