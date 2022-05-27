@@ -22,7 +22,7 @@ import org.junit.Test;
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
-@RunWith(SpringRunner.class)
+/*@RunWith(SpringRunner.class)
 @SpringBootTest
 public class BookServiceTest {
 
@@ -36,7 +36,7 @@ public class BookServiceTest {
     @Mock
     private Model model;
 
-  /*  @Test
+   @Test
     public void findAll() {
         when(bookRepository.findAll()).thenReturn(
                 Stream.of(
