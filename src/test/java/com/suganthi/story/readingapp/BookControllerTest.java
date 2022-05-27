@@ -1,6 +1,6 @@
 package com.suganthi.story.readingapp;
 
-import com.suganthi.story.readingapp.controller.BookController;
+/*import com.suganthi.story.readingapp.controller.BookController;
 import com.suganthi.story.readingapp.dao.BookRepository;
 import com.suganthi.story.readingapp.entity.Book;
 import com.suganthi.story.readingapp.service.BookService;
@@ -71,3 +71,4 @@ public class BookControllerTest {
 
 
 }
+*/
